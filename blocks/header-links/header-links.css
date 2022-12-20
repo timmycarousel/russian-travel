@@ -1,0 +1,8 @@
+.header-links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 78px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
