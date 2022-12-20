@@ -8,3 +8,19 @@
     margin: 56px auto 0 auto;
     align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        max-height: 962px;
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+        max-height: 862px;
+        margin-top: 48px;
+    }
+}
