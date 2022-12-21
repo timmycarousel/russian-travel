@@ -1,0 +1,37 @@
+.place__paragraph {
+    /* min-width: 352px; */
+    margin: 0;
+    padding: 0;
+    grid-area: paragraph;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFF;
+    max-width: 484px;
+}
+
+.place__paragraph p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 26px;
+}
+
+.place__paragraph p:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        max-width: 456px;
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        max-width: 352px;
+        min-width: 100%;
+    }
+}
