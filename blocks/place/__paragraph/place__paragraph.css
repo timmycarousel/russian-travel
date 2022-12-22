@@ -9,7 +9,7 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFF;
-    max-width: 484px;
+    /* max-width: 484px; */
 }
 
 .place__paragraph p {
@@ -22,16 +22,16 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .place__paragraph {
-        max-width: 456px;
-        min-width: 100%;
+
+@media screen and (max-width: 768px) {
+    .place__paragraph p {
+        font-size: 16px;
+        margin-bottom: 25px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph {
-        max-width: 352px;
-        min-width: 100%;
+    .place__paragraph p:last-child {
+        margin-bottom: 0;
     }
 }
