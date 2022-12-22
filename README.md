@@ -8,4 +8,5 @@ Grid Layout, Подклбчен шрифт 'Intro', БЭМ Nested.
 
 ### Ссылка на GitHub Pages
 
+https://timmycarousel.github.io/russian-travel/
 
