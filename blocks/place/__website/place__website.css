@@ -2,5 +2,6 @@
     margin: 0;
     padding: 0;
     grid-area: website;
-    align-self: end;
+    -ms-grid-row-align: end;
+        align-self: end;
 }

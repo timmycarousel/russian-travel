@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     display: block;
 }

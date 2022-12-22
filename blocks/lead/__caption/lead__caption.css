@@ -3,7 +3,8 @@
     padding: 0;
     max-width: 158px;
     max-height: 14px;
-    align-self: flex-start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -11,7 +12,7 @@
     line-height: 140%;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #FFF;
     white-space: nowrap;
     margin-top: 8px;
 }

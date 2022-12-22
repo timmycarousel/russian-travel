@@ -4,11 +4,18 @@
     max-width: 1184px;
     height: 52px;
     padding-top: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 0 auto 0 auto;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
+
 @media screen and (max-width: 1280px) {
     .header {
         max-width: 92vw;
@@ -22,20 +29,20 @@
 }
 
 @media screen and (max-width: 768px) {
-   .header {
-    max-width: 94vw;
-   }
+    .header {
+        max-width: 94vw;
+    }
 }
 
 @media screen and (max-width: 425px) {
     .header {
-     max-width: 95vw;
+        max-width: 95vw;
     }
- }
+}
 
 @media screen and (max-width: 320px) {
     .header {
-     max-width: 81vw;
-     height: 100%;
+        max-width: 81vw;
+        height: 100%;
     }
- }
+}

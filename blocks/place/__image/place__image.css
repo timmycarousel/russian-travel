@@ -3,7 +3,8 @@
     padding: 0;
     width: 100%;
     max-width: 460px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     display: block;
     grid-area: image;
     margin-left: auto;

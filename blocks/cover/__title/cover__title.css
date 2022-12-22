@@ -6,7 +6,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
-    color: #FFFFFF;
+    color: #FFF;
     max-width: 560px;
     text-align: center;
     z-index: 1;
@@ -35,4 +35,3 @@
         max-width: 288px;
     }
 }
-

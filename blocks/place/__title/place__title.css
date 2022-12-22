@@ -6,8 +6,10 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
-    color: #FFFFFF;
-    align-self: end;
+    color: #FFF;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
 }
 
 
@@ -16,7 +18,7 @@
         padding-right: 30px;
         font-size: 42px;
         line-height: 110%;
-        
+
     }
 }
 
@@ -25,6 +27,6 @@
         padding-right: 0;
         font-size: 32px;
         line-height: 109%;
-        
+
     }
 }
