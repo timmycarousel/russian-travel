@@ -12,26 +12,8 @@
     /* max-width: 484px; */
 }
 
-.place__paragraph p {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 26px;
-}
-
-.place__paragraph p:last-child {
-    margin-bottom: 0;
-}
-
-
 @media screen and (max-width: 768px) {
-    .place__paragraph p {
+    .place__paragraph {
         font-size: 16px;
-        margin-bottom: 25px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .place__paragraph p:last-child {
-        margin-bottom: 0;
     }
 }
