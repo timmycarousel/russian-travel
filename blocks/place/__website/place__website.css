@@ -3,7 +3,7 @@
     padding: 0;
     grid-area: website;
     -ms-grid-row-align: end;
-        align-self: end;
+    align-self: end;
 }
 
 @media screen and (max-width: 320px) {

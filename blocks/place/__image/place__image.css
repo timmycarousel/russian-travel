@@ -4,7 +4,7 @@
     width: 100%;
     max-width: 460px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     display: block;
     grid-area: image;
     margin-left: auto;
