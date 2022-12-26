@@ -1,6 +1,6 @@
 .header-links {
     margin: 0;
     padding: 0;
-    padding-bottom: 4px;
-    white-space: nowrap;
+    padding-bottom: 8px;
+    /* white-space: nowrap; */
 }

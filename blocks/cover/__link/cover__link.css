@@ -19,10 +19,11 @@
     background-image: url("../../../images/cover-trains.jpg");
     width: 100%;
     max-width: 1184px;
-    height: 100vh;
+    height: 100%;
     max-height: 740px;
     background-repeat: no-repeat;
     background-size: cover;
+    aspect-ratio: 320/200;
 
 }
 

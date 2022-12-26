@@ -9,4 +9,17 @@
     grid-area: image;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        max-width: 340px;
+    }
 }

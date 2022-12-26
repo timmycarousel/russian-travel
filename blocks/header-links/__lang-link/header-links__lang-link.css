@@ -1,5 +1,6 @@
 .header-links__lang-link {
-    font-family: "Inter", "Arial", "Helvetica", sans-serif;
+    padding: 0;
+    margin: 0;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -8,11 +9,13 @@
     padding-right: 18px;
     text-decoration: none;
 
+
 }
 
 .header-links__lang-link:last-child {
     padding-right: 0;
 }
+
 
 @media screen and (max-width: 425px) {
     .header-links__lang-link {
@@ -26,6 +29,7 @@
     .header-links__lang-link {
         font-size: 18px;
         line-height: 111%;
+        max-width: 50px;
     }
 
 }

@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     white-space: nowrap;
+    display: flex;
+
+
 }
+
 
 @media screen and (max-width: 740px) {
     .footer__links {
